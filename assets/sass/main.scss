@@ -1,6 +1,5 @@
 @use "variable" as variable;
 // Variables-top
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
@@ -11,12 +10,12 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: rgb(243, 240, 240);
 }
 
 nav {
     position: fixed;
     width: 100%;
-    height: 70px;
     background-color: #fff;
     box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -29,13 +28,11 @@ nav {
 
 .container {
     width: 60%;
-    height: 100%;
     margin: auto;
 }
 
 .nav-container {
     width: 100%;
-    height: 70px;
     display: flex;
     align-items: center;
     
@@ -129,8 +126,8 @@ input {
 
 .input-wrapper {
     width: 100%;
-    background-color: antiquewhite;
     position: relative;
+    margin-top: 3rem;
 
     input {
         width: 100%;
@@ -376,169 +373,6 @@ button span i {
     height: 700px;
 }
 
-.pricing-card:hover {
-  transform: scale(1.05);
-}
-
-
-.pricing-card {
-  transition: scale 0.5s ease;
-  background-color: white;
-  padding: 25px 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  width: 280px;
-}
-
-.pricing-card h2 {
-  margin-bottom: 10px;
-  font-size: 22px;
-}
-
-.price {
-  font-size: 32px;
-  color: #2f80ed;
-  margin: 10px 0;
-}
-
-.price .month {
-  font-size: 14px;
-  color: #b5b5b5;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  margin: 20px 0;
-}
-
-.features li {
-  margin-bottom: 10px;
-  font-size: 15px;
-}
-
-.check {
-  color: #2f80ed;
-  margin-right: 8px;
-}
-
-.cross {
-  color: red;
-  margin-right: 8px;
-}
-
-.join-btn {
-  padding: 10px 20px;
-  color: #2f80ed;
-  background: transparent;
-  border: 1px solid #2f80ed;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.join-btn:hover {
-  background-color: #2f80ed;
-  color: white;
-}
-
-
-h1 {
-    color: orange;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2.5em;
-}
-
-
-
-
-.pricing-card {
-    width: 350px;
-    background-color: rgb(34, 32, 32);
-    color: white;
-    outline: 1px solid rgb(218, 182, 139);
-    padding: 2rem;
-    border-radius: 10px;
-}
-
-.pricing-card h3 {
-    padding: 10px 15px;
-    width: 130px;
-    
-    border-radius: 20px;
-    background-color: hsl(34, 83%, 55%);
-    font-size: 16px;
-}
-
-.pricing-card h2 {
-    font-size: 40px;
-    margin-top: 1rem;
-    font-weight: 500;
-    margin-top: 1rem;
-}
-
-.pricing-card h2 span {
-    font-size: 16px;
-    color: rgb(172, 162, 162);
-}
-
-.pricing-card p {
-    color: rgb(172, 162, 162);
-    margin-top: 14px;
-}
-
-hr {
-    margin-top: 1rem;
-    list-style-type: none;
-    border: none;
-    border: 1px solid gray;
-}
-
-.features-list {
-    margin-top: 3rem;
-    list-style-type: none;
-}
-
-.feature-item {
-    margin: 1rem 0;
-}
-
-.feature-item i {
-    color: rgb(187, 162, 131);
-}
-
-.feature-item span {
-    color: rgb(172, 162, 162);
-    font-size: 13px;
-    margin-left: 0.5rem;
-}
-
-
-.features-list li {
-    margin: 1rem;
-}
-    
-.btn {
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(233, 174, 102);
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    margin-top: 0.5rem;
-    color: #000000;
-    font-weight: 400;
-}
-
-.pricing-card-section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-
 .help-container {
     display: flex;
     gap: 4rem;  
@@ -597,3 +431,326 @@ hr {
     transform: translateY(-5px) scaleY(1.05);
 }
 
+
+
+// pricing-card-section
+
+.pricing-card-section {
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    height: 480px;
+    background-color: #fff;
+    color: white;
+    box-shadow: rgba(0, 0, 0, .04) 0px 8px 24px;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pricing-card h2 {
+    font-size: 40px;
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.price span {
+    align-items: center;
+}
+
+.pricing-card h2 .price {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1rem;
+} 
+
+.pricing-card h2 span {
+    font-size: 16px;
+    color: rgb(172, 162, 162);
+}
+
+.pricing-card p {
+    color: rgb(172, 162, 162);
+    margin-top: 14px;
+}
+
+hr {
+    margin-top: 1rem;
+    list-style-type: none;
+    border: none;
+    border: 1px solid gray;
+}
+
+.features-list {
+    margin-top: 3rem;
+    list-style-type: none;
+}
+
+.feature-item {
+    margin: 1rem 0;
+}
+
+.feature-item i {
+    color: #3f8efc;
+}
+
+.feature-item span {
+    color: rgb(172, 162, 162);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-left: 0.5rem;
+}
+
+
+.features-list li {
+    margin: 1rem;
+}
+    
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3f8efc;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+.price {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 1rem;
+}
+
+.currency {
+  color: #3f8efc;
+  font-size: 24px;
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+
+.amount {
+  color: #3f8efc;
+  font-size: 48px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.duration {
+  color: #9da9bb;
+  font-size: 18px;
+}
+
+.feature-item .support {
+    font-size: 15px;
+    margin-left: 10rem;
+}
+
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-name span{
+    color: #212529;
+}
+
+.feature-item .gp {
+    color: #212529;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+// pricing-card-section
+
+.pricing-card-section {
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    height: 480px;
+    background-color: #fff;
+    color: white;
+    box-shadow: rgba(0, 0, 0, .04) 0px 8px 24px;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #212529;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pricing-card h2 {
+    font-size: 40px;
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.price span {
+    align-items: center;
+}
+
+.pricing-card h2 .price {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.pricing-card h2 span {
+    font-size: 16px;
+    color: rgb(172, 162, 162);
+}
+
+.pricing-card p {
+    color: rgb(172, 162, 162);
+    margin-top: 14px;
+}
+
+hr {
+    margin-top: 1rem;
+    list-style-type: none;
+    border: none;
+    border: 1px solid gray;
+}
+
+.features-list {
+    margin-top: 3rem;
+    list-style-type: none;
+}
+
+.feature-item {
+    margin: 1rem 0;
+}
+
+.feature-item i {
+    color: #3f8efc;
+}
+
+.feature-item span {
+    color: rgb(172, 162, 162);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-left: 0.5rem;
+}
+
+.features-list li {
+    margin: 1rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3f8efc;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.price {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.currency {
+    color: #3f8efc;
+    font-size: 24px;
+    margin-right: 3px;
+    margin-bottom: 30px;
+}
+
+.amount {
+    color: #3f8efc;
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.duration {
+    color: #9da9bb;
+    font-size: 18px;
+}
+
+.feature-item .support {
+    font-size: 15px;
+    margin-left: 10rem;
+}
+
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-name span {
+    color: #212529;
+}
+
+.feature-item .gp {
+    color: #212529;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
