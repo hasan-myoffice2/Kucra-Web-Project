@@ -1,6 +1,5 @@
-@import "_variable.scss";
+@use "variable" as variable;
 // Variables-top
-
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
@@ -117,10 +116,6 @@ i:hover  {
 }
 
 input {
-    margin-top: 3rem;
-    padding: 28px;
-    width: 80%;
-    height: 20px;
     border-radius: 30px;
     border: none;
     outline: none;
@@ -131,6 +126,25 @@ input {
     width: 100%;
     height: 500px;
 }
+
+.input-wrapper {
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+
+    input {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    button {
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+    }
+
+}
+
 /* body-aria-end */
 
 .product-featured h3 {
@@ -575,10 +589,6 @@ hr {
     color: #fff;
     font-weight: bold;
     font-size: 16px;
-    margin-top: 2rem;
-    position: relative;
-    top: -82px;
-    left: 19rem;
     transition: 0.3s ease;
 }
 
