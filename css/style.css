@@ -555,4 +555,25 @@ hr {
   color: #2f80ed;
 }
 
+.button-2 {
+  padding: 13px 25px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #3F8EFC;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 2rem;
+  position: relative;
+  top: -82px;
+  left: 19rem;
+  transition: 0.3s ease;
+}
+
+.button-2:hover {
+  background-color: #2f80ed;
+  transform: translateY(-5px) scaleY(1.05);
+}
+
 /*# sourceMappingURL=style.css.map */
