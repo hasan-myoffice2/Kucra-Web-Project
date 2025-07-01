@@ -1,11 +1,41 @@
-$font-color: #11c21a;
-$secondary-color: #25272b;
-$background-color: #D9E8FE;
-$text-color: #00000080;
-$border-color: #DCE9F3;
 
 
 
+$font-sixe: 15px;
+$bg-color: "gray";
 
+h1{
+    font-size: 40px;
+    color: #25272b;
+}
 
+h2{
+    font-size: 28px;
+    color: #25272b;
+}
 
+h3 {
+    font-size: 17px;
+    color: #25272b;
+}
+
+h5 {
+    font-size: 15px;
+    color: #00000080;
+    font-weight: 500;
+}
+
+i {
+    font-size: 13px;
+    color: #25272b;
+}
+
+p {
+    font-size: 15px;
+    color: #9da9bb;
+}
+
+.container {
+        width: 65%;
+        margin: 0 auto;
+}
