@@ -219,4 +219,44 @@ nav .nav-icons i:hover {
   line-height: 1.5rem;
 }
 
+.work-about-section {
+  margin-top: 5rem;
+  background-color: #F8F9FA;
+}
+.work-about-section .title-header {
+  padding: 4rem 0;
+}
+.work-about-section .title-header h2 {
+  text-align: center;
+  font-weight: 500;
+}
+.work-about-section .title-header p {
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+.work-about-section .image-text {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.work-about-section .image-text h3 {
+  font-weight: 600;
+}
+.work-about-section .image-text p {
+  margin-top: 0.6rem;
+}
+.work-about-section .right-text-aria h3 {
+  text-align: end;
+}
+.work-about-section .right-text-aria p {
+  text-align: end;
+}
+.work-about-section .time-line::before {
+  content: "";
+  width: 4px;
+  height: 500px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */
