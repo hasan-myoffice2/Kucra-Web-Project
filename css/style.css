@@ -584,4 +584,18 @@ nav .nav-icons i:hover {
   margin-left: 0.5rem;
 }
 
+.help-about-section {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+.help-about-section .help-bio h2 {
+  text-align: center;
+  font-weight: 500;
+}
+.help-about-section .help-bio p {
+  text-align: center;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
