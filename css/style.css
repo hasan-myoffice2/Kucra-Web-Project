@@ -597,5 +597,35 @@ nav .nav-icons i:hover {
   margin: 1rem;
   line-height: 1.5rem;
 }
+.help-about-section .all-help-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.help-about-section .all-help-section .bio-items {
+  width: 600px;
+  height: 150px;
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.help-about-section .all-help-section .bio-items .icons-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: #E2EEFF;
+}
+.help-about-section .all-help-section .bio-items .icons-box i {
+  font-size: 15px;
+  color: #3f8efc;
+}
+.help-about-section .all-help-section .head-text p {
+  margin-top: 0.5rem;
+  line-height: 1.3rem;
+}
 
 /*# sourceMappingURL=style.css.map */
