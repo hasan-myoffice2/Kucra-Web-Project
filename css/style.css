@@ -229,6 +229,7 @@ nav .nav-icons i:hover {
 .work-about-section {
   margin-top: 5rem;
   background-color: #f8f9fa;
+  position: relative;
 }
 .work-about-section .title-header {
   padding: 4rem 0;
@@ -259,11 +260,29 @@ nav .nav-icons i:hover {
 .work-about-section .right-text-aria p {
   text-align: end;
 }
+.work-about-section h3::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #3F8EFC;
+  border-radius: 50%;
+  right: 59rem;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+.work-about-section h3:hover::before {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 2px #3f8efc;
+}
 .work-about-section .time-line::before {
   content: "";
-  width: 4px;
-  height: 500px;
-  background-color: red;
+  width: 1px;
+  height: 760px;
+  background-color: #DCE9FB;
+  position: absolute;
+  left: 50%;
+  top: 19%;
 }
 
 .clints-section {
@@ -707,6 +726,8 @@ nav .nav-icons i:hover {
 .blog-section .card-container .card img {
   width: 100%;
   border-radius: 20px;
+  transition: all 0.5s ease;
+  position: relative;
 }
 .blog-section .card-container .card .text {
   padding: 1rem 0;
