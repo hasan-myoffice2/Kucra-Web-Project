@@ -20,7 +20,11 @@ body {
 nav {
   width: 100%;
   background-color: #fff;
-  box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
   .container {
     width: 65%;
     margin: 0 auto;
