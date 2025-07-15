@@ -46,7 +46,7 @@ p {
 }
 
 ::selection {
-  background-color: #eb8a0c;
+  background-color: #3F8EFC;
   color: #fff;
 }
 
@@ -681,6 +681,212 @@ nav .nav-icons i:hover {
 }
 .help-about-section .card-items {
   flex-grow: 1;
+}
+
+.blog-section {
+  padding: 3rem 0;
+  height: 600px;
+}
+.blog-section .header-text {
+  text-align: center;
+}
+.blog-section .header-text h3 {
+  color: #25272b;
+  font-weight: 400;
+}
+.blog-section .header-text p {
+  padding: 0.5rem;
+  line-height: 1.3rem;
+}
+.blog-section .card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+}
+.blog-section .card-container .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.blog-section .card-container .card .text {
+  padding: 1rem 0;
+}
+.blog-section .card-container .card .text h3 {
+  color: #2d374b;
+  font-size: 20px;
+}
+.blog-section .card-container .card .text p {
+  padding: 1rem 0;
+  font-size: 16px;
+  color: #2d374b;
+}
+.blog-section .card-container .card .text .text-end {
+  color: #2460d8;
+}
+.blog-section .card-container .card .text-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.blog-section .card-container .card .text-icons h5 {
+  color: #2d374b;
+  font-size: 15px;
+  font-weight: 500;
+  color: #3F8EFC;
+}
+.blog-section .card-container .card .text-icons span {
+  font-size: 20px;
+}
+.blog-section .card-container .card .text-icons i {
+  font-size: 20px;
+  color: #3F8EFC;
+}
+.blog-section .card-container .panting-card {
+  position: relative;
+}
+.blog-section .card-container .panting-card .sponsored {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.4rem 0.5rem;
+  background-color: #2D374B;
+  color: #fff;
+  font-size: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.contact-section {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background-color: #F8F9FA;
+  height: 600px;
+}
+.contact-section .header-items {
+  text-align: center;
+}
+.contact-section .header-items h3 {
+  color: #21272b;
+}
+.contact-section .header-items p {
+  padding: 0.5rem;
+  line-height: 1.3rem;
+}
+.contact-section .input-section {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 15rem;
+}
+.contact-section .email {
+  padding: 1rem 0;
+}
+.contact-section .icons-text {
+  display: flex;
+  gap: 1rem;
+}
+.contact-section .icons-text span {
+  font-size: 15px;
+}
+.contact-section .icons-text span i {
+  font-size: 18px;
+}
+.contact-section .input-aria {
+  flex-grow: 1;
+}
+.contact-section .form-control {
+  display: flex;
+  gap: 2rem;
+}
+.contact-section .form-control input {
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.contact-section input {
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+.contact-section textarea {
+  width: 100%;
+  height: 120px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  resize: none;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.contact-section .messega-button {
+  padding: 18px 0;
+  text-align: end;
+}
+.contact-section .messega-button button {
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-color: #3F8EFC;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+.contact-section .messega-button button:hover {
+  transform: translateY(-6px);
+}
+
+.footer-section {
+  padding: 4rem;
+  background-color: #21272b;
+}
+.footer-section .footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer-section .footer-items div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #21272b;
+  transition: all 0.3s ease;
+}
+.footer-section .footer-items div i {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+.footer-section .footer-items div i:hover {
+  color: #2460d8;
+  transform: 1;
+}
+.footer-section .text .terms-condition {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  list-style-type: none;
+  gap: 3rem;
+}
+.footer-section .text .terms-condition li {
+  color: #9da9bb;
+}
+.footer-section .text h5 {
+  text-align: center;
+  color: #9da9bb;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
