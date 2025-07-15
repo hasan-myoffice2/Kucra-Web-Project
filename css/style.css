@@ -45,6 +45,11 @@ p {
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #eb8a0c;
+  color: #fff;
+}
+
 body {
   width: 100vw;
   min-height: 100vh;
@@ -586,46 +591,96 @@ nav .nav-icons i:hover {
 
 .help-about-section {
   margin-top: 8rem;
-  margin-bottom: 3rem;
 }
-.help-about-section .help-bio h2 {
+.help-about-section .help-bio {
   text-align: center;
-  font-weight: 500;
 }
 .help-about-section .help-bio p {
-  text-align: center;
-  margin: 1rem;
+  color: #9da9bb;
+  margin-top: 1rem;
   line-height: 1.5rem;
 }
-.help-about-section .all-help-section {
+.help-about-section .card-section {
+  padding: 4rem 0;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 2rem;
 }
-.help-about-section .all-help-section .bio-items {
-  width: 600px;
-  height: 150px;
+.help-about-section .card-section .icons-text {
   display: flex;
   gap: 1rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
-.help-about-section .all-help-section .bio-items .icons-box {
+.help-about-section .card-section .icons-text .icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #E2EEFF;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  background-color: #E2EEFF;
 }
-.help-about-section .all-help-section .bio-items .icons-box i {
-  font-size: 15px;
+.help-about-section .card-section .icons-text .icons i {
+  font-size: 18px;
   color: #3f8efc;
 }
-.help-about-section .all-help-section .head-text p {
-  margin-top: 0.5rem;
+.help-about-section .card-section .header-text h3 {
+  color: #21272b;
+  font-size: 17px;
+  font-weight: 500;
+}
+.help-about-section .card-section .header-text p {
+  padding: 0.4rem 0;
   line-height: 1.3rem;
+}
+.help-about-section .input-card {
+  background-color: #F8F9FA;
+  padding: 3rem;
+  border-radius: 10px;
+  position: relative;
+}
+.help-about-section .input-card h3 {
+  color: #21272b;
+  font-size: 18px;
+  font-weight: 500;
+}
+.help-about-section .input-card p {
+  padding: 1rem 0;
+}
+.help-about-section input {
+  padding: 18px 25px;
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #25272b;
+}
+.help-about-section input::placeholder {
+  color: #9da9bb;
+  font-size: 15px;
+  font-weight: 500;
+  font-weight: bold;
+}
+.help-about-section .submit {
+  right: 9%;
+  position: absolute;
+  padding: 18px 40px;
+  border: none;
+  background-color: transparent;
+  background-color: #3F8EFC;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  font-weight: 600;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: all 0.5s ease;
+}
+.help-about-section .submit:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+.help-about-section .card-items {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
