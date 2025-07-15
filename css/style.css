@@ -51,8 +51,6 @@ p {
 }
 
 body {
-  width: 100vw;
-  min-height: 100vh;
   font-family: "Inter", sans-serif;
   background-color: #fff;
 }
@@ -647,12 +645,14 @@ nav .nav-icons i:hover {
   padding: 1rem 0;
 }
 .help-about-section input {
-  padding: 18px 25px;
-  width: 70%;
+  padding: 16px 25px;
+  width: 72%;
   border: none;
   outline: none;
   font-size: 18px;
   color: #25272b;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .help-about-section input::placeholder {
   color: #9da9bb;
@@ -661,7 +661,7 @@ nav .nav-icons i:hover {
   font-weight: bold;
 }
 .help-about-section .submit {
-  right: 9%;
+  right: 11%;
   position: absolute;
   padding: 18px 40px;
   border: none;
